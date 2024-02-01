@@ -1,0 +1,31 @@
+header{
+    color:red;
+    background-color: gold;
+    font-family: serif, "Bauhaus 93";
+    letter-spacing: 0.2cm;
+}
+
+nav{
+    padding-bottom: 20px;
+    margin: 3px;
+    background-color: darkgrey;
+}
+nav li{
+    float: left;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: visible;
+}
+nav li a{
+    display: block;
+    padding: 10px;
+    background-color: darkgrey;
+    text-decoration: none;
+    text-align: center;
+}
+/*nav menüüs link fookuses on teise taustaga*/
+nav li a:hover{
+    background-color: aquamarine;
+}

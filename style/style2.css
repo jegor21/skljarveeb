@@ -1,0 +1,52 @@
+header{
+    color:green;
+    background-color: red;
+    font-family: serif, "Bauhaus 93";
+    letter-spacing: 0.2cm;
+}
+
+nav{
+    padding-bottom: 20px;
+    margin: 3px;
+    background-color: darkgrey;
+}
+nav li{
+    float: left;
+}
+
+nav ul{
+    list-style-type: none;
+    overflow: visible;
+}
+nav li a{
+    display: block;
+    padding: 10px;
+    background-color: darkgoldenrod;
+    text-decoration: none;
+    text-align: center;
+}
+/*nav menüüs link fookuses on teise taustaga*/
+nav li a:hover{
+    background-color: red;
+}
+footer{
+    position:fixed;
+    left: 0;
+    bottom:0;
+    background-color: cyan;
+    width: 100%;
+    text-align: center;
+}
+main section{
+    border-left: 6px solid red;
+    background-color: darkgoldenrod;
+    border-radius: 60px;
+    padding:2%;
+    width: 30%;
+    margin: 30px;
+}
+section#teine{
+    position: absolute;
+    left: 550px;
+    top: 120px;
+}

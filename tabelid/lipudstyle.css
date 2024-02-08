@@ -1,0 +1,189 @@
+#eesti{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 100px;
+    left: 10px;
+}
+/*1.rida*/
+#eesti tr:nth-child(1){
+    background-color: blue;
+}
+/*2.rida*/
+#eesti tr:nth-child(2){
+    background-color: black;
+}
+/*3.rida*/
+#eesti tr:nth-child(3){
+    background-color: white;
+}
+
+
+#rootsi{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 100px;
+    left: 350px;
+}
+/*1. rida 1.lahter ja 3.rida 1.lahter*/
+#rootsi tr:nth-child(1) td:nth-child(1),
+#rootsi tr:nth-child(3) td:nth-child(1){
+    background-color: blue;
+    width: 28%;
+
+}
+
+/*1. rida 3.lahter ja 3.rida 3.lahter*/
+#rootsi tr:nth-child(1) td:nth-child(3),
+#rootsi tr:nth-child(3) td:nth-child(3){
+    background-color: blue;
+
+
+}
+
+/*1. rida 2.lahter ja 3.rida 2.lahter*/
+#rootsi tr:nth-child(1) td:nth-child(2),
+#rootsi tr:nth-child(3) td:nth-child(2){
+    background-color: gold;
+    width: 13%;
+
+
+}
+/*2.rida*/
+#rootsi tr:nth-child(2) {
+    background-color: gold;
+    height: 20%;
+}
+
+
+
+#ireland{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 340px;
+    left: 10px
+}
+
+/*1.rida*/
+#ireland tr:nth-child(1) td:nth-child(1),
+#ireland tr:nth-child(2) td:nth-child(1),
+#ireland tr:nth-child(3) td:nth-child(1){
+    background-color: green;
+}
+
+
+/*2.rida*/
+#ireland tr:nth-child(1) td:nth-child(2),
+#ireland tr:nth-child(2) td:nth-child(2),
+#ireland tr:nth-child(3) td:nth-child(2){
+    background-color: white;
+}
+/*3.rida*/
+#ireland tr:nth-child(1) td:nth-child(3),
+#ireland tr:nth-child(2) td:nth-child(3),
+#ireland tr:nth-child(3) td:nth-child(3) {
+    background-color: darkorange;
+}
+
+
+#noora{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 100px;
+    left: 690px;
+}
+
+/*1.lahter*/
+#noora tr:nth-child(1) td:nth-child(1),
+#noora tr:nth-child(5) td:nth-child(1){
+    background-color: red;
+    width: 23%;
+    height: 36%;
+}
+
+#noora tr:nth-child(2) td:nth-child(1),
+#noora tr:nth-child(4) td:nth-child(1){
+    background-color: white;
+
+}
+
+
+/*2.lahter*/
+
+#noora tr:nth-child(1) td:nth-child(2),
+#noora tr:nth-child(5) td:nth-child(2){
+    background-color: white;
+    width: 5%;
+}
+
+/*3.lahter*/
+
+#noora tr:nth-child(3){
+    background-color: darkblue;
+    height: 13%;
+
+}
+
+#noora tr:nth-child(1) td:nth-child(3),
+#noora tr:nth-child(2) td:nth-child(3),
+#noora tr:nth-child(4) td:nth-child(3),
+#noora tr:nth-child(5) td:nth-child(3){
+    background-color: darkblue;
+    width: 8%;
+
+
+}
+
+/*4.lahter*/
+#noora tr:nth-child(1) td:nth-child(4),
+#noora tr:nth-child(2) td:nth-child(4),
+#noora tr:nth-child(4) td:nth-child(4),
+#noora tr:nth-child(5) td:nth-child(4){
+    background-color: white;
+    width: 5%;
+}
+/*5.lahter*/
+
+#noora tr:nth-child(1) td:nth-child(5),
+#noora tr:nth-child(5) td:nth-child(5){
+    background-color: red;
+    width: 50%;
+
+}
+
+#noora tr:nth-child(2) td:nth-child(5),
+#noora tr:nth-child(4) td:nth-child(5){
+    background-color: white;
+}
+
+#latvia{
+    width: 330px;
+    height: 210px;
+    border: 1pt solid grey;
+    border-spacing: 0;
+    position: absolute;
+    top: 340px;
+    left: 350px;
+}
+
+
+#latvia tr:nth-child(1),
+#latvia tr:nth-child(3){
+    background-color: darkred;
+}
+
+#latvia tr:nth-child(2){
+    background-color: white;
+    height: 25%;
+}

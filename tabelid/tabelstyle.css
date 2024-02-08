@@ -1,0 +1,21 @@
+table{
+    width: 50%;
+    height: 200px;
+    border: 1px solid grey;
+    text-align: center;
+
+
+}
+td{
+    border: 1px solid grey;
+}
+#teine{
+    width: 30%;
+    height: 100px;
+    border: 1px solid red;
+    text-align: center;
+
+}
+td.muu{
+    border: 1px solid red;
+}

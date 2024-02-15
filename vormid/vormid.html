@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <title>Vormid</title>
+    <link rel="stylesheet" type="text/css" href="vormstyle.css">
+    <script src="vormistLugemine.js"></script>
+</head>
+<body>
+<h1>Küsimustik</h1>
+<form name="kysimustik">
+    <table>
+    <!--tekstkast-->
+        <tr>
+            <td>
+                <label for="nimi">Nimi:</label>
+            </td>
+            <td>
+                <input type="text" id="nimi" name="nimi" oninput="tekstKastiLugemine()">
+            </td>
+            <td>
+                <div id="vastus"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <!--radionupp-->
+                <strong>Vali oma rühm:</strong>
+            </td>
+            <td>
+                <br>
+                <!-- ALT + J - kasutame nimi valimiseks-->
+                <input type="radio" id="targv23" name="ryhm" value="TARgv23" onchange="radioLugemine()">
+                <label for="targv23">TARgv23</label>
+                <br>
+                <input type="radio" id="logitgv23" name="ryhm" value="LOGITgv23" onchange="radioLugemine()">
+                <label for="logitgv23">LOGITgv23</label>
+            </td>
+            <td>
+                <div id="vastus2"></div>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <!--checkbox-->
+                <br>
+                <strong>
+                    Vali oma lemmikud
+                </strong>
+            </td>
+            <td>
+                <br>
+                <input type="checkbox" id="andmebaasid" name="aine" value="andmebaasid">
+                <label for="andmebaasid">Andmebaasid</label>
+                <br>
+                <input type="checkbox" id="matemaatika" name="aine" value="matemaatika">
+                <label for="matemaatika">Matemaatika</label>
+                <br>
+                <input type="checkbox" id="programeerimine" name="aine" value="programeerimine">
+                <label for="programeerimine">Programeerimine</label>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <br>
+                <label for="kodu">Kust sa pärit oled?</label>
+            </td>
+            <td>
+                <select id="kodu">
+                    <option value="tyhi">vali...</option>
+                    <option value="Tartu">Tartu</option>
+                    <option value="Narva">Narva</option>
+                    <option value="Tallinn">Tallinn</option>
+
+                </select>
+                <br>
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" value="OK">
+            </td>
+            <td>
+                <input type="reset" value="Puhasta" onclick="puhasta()">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="varv">Mis on sinu lemmik värv?</label>
+            </td>
+            <td>
+                <input type="color" id="varv">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="data1">Millal sa sündisid?</label>
+
+            </td>
+            <td>
+                <input type="date" id="data1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="time1">Mis kell on?</label>
+
+            </td>
+            <td>
+                <input type="time" id="time1">
+
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="email1">Pane siia emaili</label>
+
+            </td>
+            <td>
+                <input type="email" id="email1">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="range1">Mis tuju sul on?</label>
+            </td>
+            <td>
+                <strong>halb</strong><input type="range" id="range1"><strong>hea</strong>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <label for="check1">Kinnitage, et te pole robot</label>
+            </td>
+            <td>
+                <input type="checkbox" id="check1">
+                <label for="check1">Kinnitan, et olen inimene.</label>
+            </td>
+        </tr>
+    </table>
+</form>
+<!--Добавить в таблицу, написанную на уроке мин 6 мах 10 вопросов и использовать для них различные подходящие input type(color, date, week, jne)
+Добавить к каждому input [type=..] css стили.
+использовать w3schools.com-->
+
+</body>
+</html>

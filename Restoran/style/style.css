@@ -1,0 +1,108 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+.registration-form {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.registration-form dl {
+    margin: 0;
+    padding: 0;
+}
+
+.registration-form dt {
+    font-weight: bold;
+}
+
+.registration-form dd {
+    margin-bottom: 10px;
+}
+
+.registration-form input[type="text"], .registration-form input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+.registration-form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    cursor: pointer;
+}
+
+.lisatudNimi {
+    text-align: center;
+    font-weight: bold;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+li a {
+    float: left;
+    border-right: 1px solid #bbb;
+}
+li a:hover {
+    background-color: forestgreen;
+    color: greenyellow;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+nav ul li form {
+    display: inline;
+}
+
+nav ul li form input[type="submit"] {
+    background-color: #4CAF50; /* Зеленый фон */
+    color: white; /* Белый текст */
+    border: none;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px; /* Закругленные углы */
+}
+
+nav ul li form input[type="submit"]:hover {
+    background-color: #45a049; /* Более темный зеленый цвет при наведении */
+}
+
+
+footer {
+    margin-top: auto; 
+}
